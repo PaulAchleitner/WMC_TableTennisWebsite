@@ -1,0 +1,200 @@
+body {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    background: gray;
+    background-image: url('background.jpg');
+}
+.container{
+    background: white;
+}
+
+.top{
+    background: white;
+    font-weight: bold;
+    position: fixed;
+    top:0;
+    width: 100%;
+    float: left;
+}
+.contact{
+    font-weight: lighter;
+}
+
+.btn{
+    margin-left: 6rem
+}
+
+#contact{
+    position: relative;
+    float: right;
+    margin: 0.7rem;
+    font-weight: bold;
+    font-size: medium;
+    padding: 0.3rem;
+    background: lightgray;
+    border-radius: 0.7rem;
+    text-decoration: none;
+}
+
+#contact:hover{
+    background: lightblue;
+    text-decoration: none;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    left:0;
+}
+
+.nav-link:hover{
+    font-weight: bolder;
+}
+
+#header{
+    margin-left: 7rem;
+}
+
+.navbar-brand{
+    font-size:x-large;
+}
+
+.Head{
+    font-size: 3vw;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.News1Pic{
+
+    border-radius: 10%;
+    transition: all 2s ease-in-out;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    display: flex;
+}
+
+.News1Pic:hover{
+    transform: scale(1.15);
+}
+
+
+.container{
+    margin-left: 7rem;
+    margin-right: 7rem;
+    background: white;
+}
+
+.mb-3{
+    margin: 2rem;
+}
+
+.submit{
+    width: 6rem;
+    height: 2rem;
+    font-size: large;
+}
+
+.navbar{
+    background: white;
+    font-weight: bold;
+    position: fixed;
+    top:7rem;
+    width: 100%;
+    float: left;
+}
+
+.nav-link{
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.racketPic{
+    animation-name: racket;
+    animation-duration: 4s;
+}
+
+@keyframes racket {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.BestPlayers{
+    width:100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: x-large;
+}
+
+.PlayerRowWhite > td{
+    border-bottom: 1px solid black;
+}
+
+.PlayerRowGrey > td{
+    border-bottom: 1px solid black;
+}
+
+.PlayerName{
+    text-align: center;
+}
+
+.PlayerRank{
+    text-align: center;
+}
+
+.PlayerCountry{
+    text-align: center;
+}
+
+.Flag{
+    margin-right: 2rem;
+}
+
+.PlayerRowGrey{
+    background: lightgrey;
+}
+
+.PlayerRowWhite{
+    background: white;
+}
+
+.Player:hover{
+    background: orange;
+}
+
+.containerCard{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ProductCard{
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+    box-shadow: 10px 5px 20px black;
+    overflow: hidden;
+}
+
+.ProductCard:hover{
+    overflow: visible;
+    height: 600px;
+}
+
+.img-container > p{
+    display: flex;
+}
+
+#TennisInfo{
+    font-size: xx-large;
+}
+
+.PrevCard > p{
+    margin: 1rem;
+}
